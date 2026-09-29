@@ -2437,7 +2437,12 @@ input, select, textarea {
 					box-shadow: none;
 					border-left: 0;
 				}
-
+#top .image img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50%;
+}
 					#copyright li:first-child {
 						margin-top: 0;
 					}
